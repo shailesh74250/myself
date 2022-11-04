@@ -1,0 +1,29 @@
+- when user grows in our application or product then we need to scale our database dynamically and database sharding is the technique that can fulfill this job
+
+Scaling database is one of technique is sharding or data partitioning 
+- it basically a database architecture pattern in which we split a large dataset into smaller chunks and that chunks we stores on different machines 
+- Each shard has the same database schema as the original database. 
+- We distribute the data in such a way that each row appears in exactly one shard. it means there should be no data duplication 
+- Its a good mechanism to improve the scalability of an application 
+
+Advantage of Sharding 
+- Solve Scalability issue 
+- High availability 
+- Speed up query response time 
+- More write bandwidth 
+- Scaling out 
+
+Disadvantage of Sharding 
+- Add Complexity in the system 
+- Rebalancing data
+- Joining data from multiple shards is expensive 
+- No native support (not auto supported by every db engine like - postgresql doesn't include automatic sharding features so there we need to do manual sharding, we need to follow "roll-your-own" approach)
+
+Sharding Architecture 
+- Key Based Sharding 
+- Horizontal or range based sharding 
+- Vertical based sharding 
+- Directory based sharding 
+
+
+Note: A shard shouldn’t contain values that might change over time. It should be always static otherwise it will slow down the performance. 

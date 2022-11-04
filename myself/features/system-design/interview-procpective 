@@ -1,0 +1,12 @@
+- need to design any system within 45 minutes 
+- system could be any (netflix, twitter, facebook, youtube, uber, etc)
+
+- In system design interview only interviewer or company just look into though process nothing else 
+- Your ability to articulate your thoughts matters more than the final design you present to them.
+
+- Ask for features interviewer want include and want to some features exclude 
+- Understand the Goal and Gather All the Requirements
+- System Interface Definition and Establish Scope
+- Scalability Estimation
+- Start with High-level Components then move to Detailed Design
+- Tradeoffs and Resolving Bottleneck
